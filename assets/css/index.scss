@@ -1,0 +1,97 @@
+#name{
+    color: rgb(250, 250, 250);
+    font-family: 'Kanit', sans-serif;
+}
+.navbar {
+    position: fixed;
+    top: -10px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    
+}
+#frontimage{
+    @media (max-width:640px) {
+        width: 100%;
+        height: 500px;
+    }
+}
+.just{
+    @media (max-width:530px) {
+        display: block;
+        font-size: 12px;
+        padding: 3px;
+    }
+}
+
+.thing {
+    position: absolute;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    top: 220px;
+    left: 130px;
+    width: 480px;
+    padding: 25px 15px;
+    @media (max-width:640px) {
+        position: absolute;
+        background-color: whitesmoke;
+        opacity: 0.8;
+        top: 100px;
+        left: 100px;
+        width: 350px;
+        height: 320px;
+        padding: 25px 15px;
+    }
+
+    h2{
+        font-size: 20px;
+        font-weight: bold;
+        @media (max-width:640px) {
+            font-size: 17px;
+            font-weight: bold;
+        }
+    }
+    p{
+        @media (max-width:640px) {
+            font-size: 12px;
+           
+        }
+    }
+    button{
+        padding: 8px 120px;
+        margin-left: 20px;
+        @media (max-width:640px) {
+            padding: 8px 20px;
+            margin-left: 50px;
+        }
+    }
+}
+.tag {
+    position: absolute;
+    top: 25px;
+    right: -11px;
+}
+#check {
+    margin: 25px 20px;
+    margin-bottom: 200px;
+    padding: 15px 55px;
+    font-size: 30px;
+    color: wheat;
+    background-color: black;
+}
+#shop{
+    position: absolute;
+    bottom: 40%;
+    left: 38%;
+    font-size: 55px;
+    font-weight: bolder;
+    font-family: 'Rubik Dirt', cursive;
+    color: rgb(73, 67, 10);
+}
+.borde {
+    border: solid 2px black;
+    border-radius: 5px;
+    padding: 6px 25px;
+    font-weight: bold;
+    background-color: rgb(110, 107, 59);
+}
